@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookmark Controller</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  </head>
+  <body><center>
+    <h2 id="title"><---Bookmarks---></h2>
+    <div id="addDiv">
+      <br>
+    <h2>Add a Bookmark</h2>
+    <p style='color: black;' id="error"></p>
+    <p>Enter the name of this Bookmark</p>
+    <input type="text" class="addNew" id="bookmarkname" placeholder="Name">
+    <p>Enter the link of the Bookmark</p>
+    <input type="text" class="addNew" id="bookmarklink" placeholder="Link">
+    <br><br>
+    <button id="addbookmark" class="btn">Add bookmark</button><br><br>
+    </div>
+    <br><br>
+    <div id="viewDiv"><br>
+    <h2>View your Bookmarks</h2>
+    <button id="getbookmark" class="btn">View bookmarks</button>
+    <button id="hidebookmark" class="btn" style="display:none;">Hide bookmarks</button>
+    <h3 id="bookmarks"></h3><br>
+    </div>
+    <br><br>
+
+    <div id="deleteDiv"><br>
+    <h2>Delete a Bookmark</h2>
+    <input type="text" id='toDelete' class="addNew" placeholder="Item to delete"><br><br>
+    <button id="delbookmark" class="btn">Delete this bookmark</button><br><br>
+    <label id="deleted"></label><br><br><button id="close" class="GO" style="display: none;">&nbsp; Thanks &nbsp;</button>
+    <br>
+  </div>
+    <br><br>
+
+    <div id="dangerDiv">
+      <br>
+    <h2>Danger Zone</h2>
+    <h3><input type="checkbox" id="clearcheck">&nbsp;&nbsp;&nbsp;Check this box to confirm you want to clear all data, and then click the button below.</h3>
+    <button id="clearbookmarks" class="btn">Clear all data</button>
+    <br>
+    <h3 id="cleared"></h3><br>
+  </div>
+  <br>
+    <script src="popup.js"></script>
+    </center>
+  </body>
+</html>

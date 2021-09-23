@@ -1,0 +1,95 @@
+body{
+	background-color: #e9f0f5;
+	color: black;
+	width:300px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.btn {
+	font-family:Georgia;
+	color: #ffffff !important;
+	background: black;
+	padding: 8px;
+	border: 2px solid white !important;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	color: #2d2d2d !important;
+	background: #ffffff;
+	border-color: #f2f2f2 !important;
+	transition: all 0.4s ease 0s;
+	cursor: pointer;
+}
+
+.addNew {
+	font-family:Georgia;
+	background-color: #f2f2f2;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	transition: width 0.4s ease-in-out;
+}
+
+.addNew:focus {
+	background-color: #a3d6e6;
+	border-radius: 6px;
+}
+
+.GO {
+	font-family:Georgia;
+	color: #ffffff !important;
+	text-decoration: none;
+	background: black;
+	border-color:  white;
+	padding: 1px;
+	border: 1px solid #494949;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+}
+.GO:hover{
+	color: #000000 !important;
+	background: #ffffff;
+	border-color: red;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#addDiv {
+	background-color: #ffa31a; 
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 18px;
+}
+
+#viewDiv {
+	background-color: #ffa31a; 
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 18px;
+}
+
+#deleteDiv{
+	background-color: #ffa31a; 
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 18px;
+}
+
+#dangerDiv{
+	background-color:#ff9999;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 18px;
+}
+
+#title {
+	font-family: Abel;
+}
