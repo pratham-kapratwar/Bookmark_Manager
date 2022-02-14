@@ -1,5 +1,5 @@
 body{
-	background-color: #e9f0f5;
+	background: linear-gradient(#FF4331, #D31A50);
 	color: black;
 	width:300px;
 	padding-left: 7px;
@@ -39,7 +39,7 @@ body{
 }
 
 .addNew:focus {
-	background-color: #a3d6e6;
+	background: linear-gradient(to right, #11998e, #38ef7d);
 	border-radius: 6px;
 }
 
