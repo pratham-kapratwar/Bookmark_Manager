@@ -1,5 +1,5 @@
 body{
-	background: linear-gradient(#FF4331, #D31A50);
+	background: linear-gradient(to right, #11998e, #38ef7d);
 	color: black;
 	width:300px;
 	padding-left: 7px;
@@ -39,7 +39,7 @@ body{
 }
 
 .addNew:focus {
-	background: linear-gradient(to right, #11998e, #38ef7d);
+	background-color: #a3d6e6;
 	border-radius: 6px;
 }
 
@@ -63,28 +63,28 @@ body{
 }
 
 #addDiv {
-	background-color: #ffa31a; 
+	background: linear-gradient(#FF4331, #D31A50);
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 18px;
 }
 
 #viewDiv {
-	background-color: #ffa31a; 
+	background: linear-gradient(#FF4331, #D31A50); 
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 18px;
 }
 
 #deleteDiv{
-	background-color: #ffa31a; 
+	background: linear-gradient(#FF4331, #D31A50);
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 18px;
 }
 
 #dangerDiv{
-	background-color:#ff9999;
+	background: linear-gradient(#FF4331, #D31A50);
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 18px;
